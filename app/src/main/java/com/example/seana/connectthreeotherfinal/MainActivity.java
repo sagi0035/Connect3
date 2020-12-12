@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     c.setVisibility(View.VISIBLE);
                     gameActive = false;
                 } else if (gamePlay == 9) {
+                    // else we have exhausted all options and the result is actually a draw
                     TextView c = (TextView) findViewById(R.id.textView2);
                     c.setText("It's a draw!");
                     c.setVisibility(View.VISIBLE);
